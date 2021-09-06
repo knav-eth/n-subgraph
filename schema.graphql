@@ -11,4 +11,5 @@ type N @entity {
     seventh: Int!
     eighth: Int!
     numbers: [Int]!
+    metadataURI: String!
 }

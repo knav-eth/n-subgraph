@@ -19,6 +19,7 @@ export function handleTransfer(event: Transfer): void {
     n.sixth = contract.getSixth(tokenId).toI32()
     n.seventh = contract.getSeventh(tokenId).toI32()
     n.eighth = contract.getEight(tokenId).toI32()
+    n.metadataURI = contract.tokenURI(tokenId)
 
     let numbers: Array<i32> = [
       n.first,

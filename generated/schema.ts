@@ -140,4 +140,13 @@ export class N extends Entity {
   set numbers(value: Array<i32>) {
     this.set("numbers", Value.fromI32Array(value));
   }
+
+  get metadataURI(): string {
+    let value = this.get("metadataURI");
+    return value.toString();
+  }
+
+  set metadataURI(value: string) {
+    this.set("metadataURI", Value.fromString(value));
+  }
 }
