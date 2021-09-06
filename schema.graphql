@@ -1,0 +1,14 @@
+type N @entity {
+    id: ID!
+    owner: Bytes!
+    name: String!
+    first: Int!
+    second: Int!
+    third: Int!
+    fourth: Int!
+    fifth: Int!
+    sixth: Int!
+    seventh: Int!
+    eighth: Int!
+    numbers: [Int]!
+}
